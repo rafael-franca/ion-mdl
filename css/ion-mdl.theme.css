@@ -1,0 +1,200 @@
+.has-header {
+  top:0;
+}
+
+/*
+
+    Ionic Component: ion-nav-bar
+    Ionic Documentation: http://ionicframework.com/docs/api/directive/ionNavBar/
+
+    MDL Component: Layout
+    MDL Documentation: http://www.getmdl.io/components/index.html#layout-section
+
+ */
+
+.ion-mdl-header {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.08),0 3px 1px -2px rgba(0,0,0,.05),0 1px 5px 0 rgba(0,0,0,.08);
+  color: rgb(255,255,255);
+  background-color: rgb(63,81,181);
+  z-index: 3;
+  border: none;
+}
+.ion-mdl-header-simple {
+  height: 56px;
+}
+.ion-mdl-header .title {
+  height: 56px;
+  font-size: 20px;
+  line-height: 56px;
+}
+.platform-android .ion-mdl-header .title {
+  line-height: 57px;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+/*
+
+    Ionic Component: Buttons
+    Ionic Documentation: http://ionicframework.com/docs/components/#buttons
+
+    MDL Component: Buttons
+    MDL Component Type: Basic
+    MDL Documentation: http://www.getmdl.io/components/index.html#buttons-section
+
+ */
+
+
+.ion-mdl-button {
+  background: 0 0;
+  border: none;
+  border-radius: 2px;
+  color: #000;
+  display: block;
+  position: relative;
+  height: 46px;
+  min-width: 64px;
+  padding: 0 8px;
+  display: inline-block;
+  font-family: 'Roboto','Helvetica','Arial',sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  overflow: hidden;
+  will-change: box-shadow,transform;
+  -webkit-transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+  transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 36px;
+  vertical-align: middle;
+}
+.ion-mdl-button--small {
+  height: 37px;
+}
+.ion-mdl-button--large {
+  height: 55px;
+}
+
+.ion-mdl-button.activated {
+  background-color: rgba(0,0,0,.12);
+}
+
+/*
+
+    Ionic Component: Buttons
+    Ionic Documentation: http://ionicframework.com/docs/components/#buttons
+
+    MDL Component: Buttons
+    MDL Component Type: Icon
+    MDL Documentation: http://www.getmdl.io/components/index.html#buttons-section
+
+ */
+
+.ion-mdl-button--icon {
+  border-radius: 50%;
+  font-size: 24px;
+  height: 32px;
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 32px;
+  width: 32px;
+  padding: 0;
+  overflow: hidden;
+  color: inherit;
+  line-height: normal;
+}
+
+.ion-mdl-button--icon .material-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-12px,-12px);
+  -ms-transform: translate(-12px,-12px);
+  transform: translate(-12px,-12px);
+  line-height: 24px;
+  width: 23px;
+}
+
+/*
+
+    Ionic Component: Buttons
+    Ionic Documentation: http://ionicframework.com/docs/components/#buttons
+
+    MDL Component: Buttons
+    MDL Component Type: Colored
+    MDL Documentation: http://www.getmdl.io/components/index.html#buttons-section
+
+ */
+.ion-mdl-button--colored {
+  color: rgb(255,255,255);
+}
+
+/*
+
+    Ionic Component: Buttons
+    Ionic Documentation: http://ionicframework.com/docs/components/#buttons
+
+    MDL Component: Buttons
+    MDL Component Type: Accent
+    MDL Documentation: http://www.getmdl.io/components/index.html#buttons-section
+
+ */
+
+.ion-mdl-button--accent, .ion-mdl-button--raised.ion-mdl-button--accent  {
+  color: rgb(255,255,255);
+  background-color: rgb(255,64,129);
+}
+.ion-mdl-button--accent .mdl-ripple {
+  background: rgb(255,255,255);
+}
+
+/*
+
+    Ionic Component: Buttons
+    Ionic Documentation: http://ionicframework.com/docs/components/#buttons
+
+    MDL Component: Buttons
+    MDL Component Type: Raised
+    MDL Documentation: http://www.getmdl.io/components/index.html#buttons-section
+
+ */
+
+.ion-mdl-button--raised {
+  background: rgba(158,158,158,.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+.ion-mdl-button--raised.activated {
+  transition: box-shadow .2s cubic-bezier(.4,0,1,1);
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+/*
+
+    Ionic Component: Buttons
+    Ionic Documentation: http://ionicframework.com/docs/api/directive/ionNavBackButton/
+
+    MDL Component: Buttons
+    MDL Component Type: Icon (Nav-Bar Back Button)
+    MDL Documentation: http://www.getmdl.io/components/index.html#buttons-section
+
+ */
+
+.ion-mdl-button.back-button.activated, .ion-mdl-button.back-button:hover {
+  color: rgb(255,255,255);
+  opacity:1;
+}
+.ion-mdl-button.back-button .back-text {
+  display: none;
+}
+
+/* button - social */
+
+.ion-mdl-button-facebook {  }
+.ion-mdl-button-google {  }
