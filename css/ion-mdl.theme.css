@@ -1,6 +1,6 @@
-.has-header {
-  top:0;
-}
+.has-header { top:0; }
+.padding { padding-top: 15px; }
+.scroll-content { bottom: 60px; }
 
 /*
 
