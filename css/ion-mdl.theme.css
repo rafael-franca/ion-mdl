@@ -196,5 +196,200 @@
 
 /* button - social */
 
-.ion-mdl-button-facebook {  }
-.ion-mdl-button-google {  }
+.ion-mdl-button-facebook { background: #3B5999; }
+.ion-mdl-button-facebook.activated { background: #314A80; }
+.ion-mdl-button-google { background: #db4a39; }
+.ion-mdl-button-google.activated { background: #D83927 }
+
+/*
+
+    Ionic Component: Cards
+    Ionic Documentation: http://ionicframework.com/docs/components/#cards
+
+    MDL Component: Cards
+    MDL Documentation: http://www.getmdl.io/components/index.html#cards-section
+
+    Usage: http://play.ionic.io/app/b554fafedabd
+
+*/
+.ion-mdl-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 16px;
+  min-height: 200px;
+  overflow: hidden;
+  width: 330px;
+  z-index: 1;
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.ion-mdl-shadow--2dp {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+.ion-mdl-card--expand {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.ion-mdl-card--title {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  line-height: normal;
+  padding: 16px;
+  -webkit-perspective-origin: 165px 56px;
+  perspective-origin: 165px 56px;
+  -webkit-transform-origin: 165px 56px;
+  -ms-transform-origin: 165px 56px;
+  transform-origin: 165px 56px;
+  box-sizing: border-box;
+}
+.ion-mdl-card.ion-mdl-colored .ion-mdl-card--title h4, .ion-mdl-card.ion-mdl-colored .ion-mdl-card--actions .ion-mdl-button {
+  color: rgb(255,255,255);
+}
+.ion-mdl-card--title-text {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  color: inherit;
+  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+  overflow: hidden;
+  -webkit-transform-origin: 149px 48px;
+  -ms-transform-origin: 149px 48px;
+  transform-origin: 149px 48px;
+  margin: 0;
+}
+.ion-mdl-card--supporting-text {
+  color: rgba(0,0,0,.87);
+  font-size: 13px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 16px;
+  width: 90%;
+}
+
+.ion-mdl-card--actions {
+  font-size: 16px;
+  line-height: normal;
+  width: 100%;
+  background-color: transparent;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.ion-mdl-card.ion-mdl-colored .ion-mdl-card--actions .ion-mdl-button .mdl-ripple {
+  background: rgb(255,255,255);
+}
+.ion-mdl-card.ion-mdl-colored .ion-mdl-card--actions.ion-mdl-card--border {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.ion-mdl-card--actions.ion-mdl-card--border {
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+.ion-mdl-card--border {
+  
+}
+
+/*
+
+    Ionic Component: Cards
+    Ionic Documentation: http://ionicframework.com/docs/components/#cards
+
+    MDL Component: Cards
+    MDL Component Template: Event
+    MDL Documentation: http://www.getmdl.io/components/index.html#cards-section
+
+*/
+.ion-mdl-card--event {
+  height: 256px;
+  background: #3E4EB8;
+}
+
+/*
+
+    Ionic Component: Cards
+    Ionic Documentation: http://ionicframework.com/docs/components/#cards
+
+    MDL Component: Cards
+    MDL Component Template: Image
+    MDL Documentation: http://www.getmdl.io/components/index.html#cards-section
+
+*/
+.ion-mdl-card--image.ion-mdl-card {
+  width: 100%;
+  height: 256px;
+  background: url('http://www.getmdl.io/assets/demos/image_card.jpg') center / cover;
+}
+.ion-mdl-card--image > .ion-mdl-card--actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.ion-mdl-card--image-filename {
+  color: #fff;
+}
+
+/*
+
+    Ionic Component: Cards
+    Ionic Documentation: http://ionicframework.com/docs/components/#cards
+
+    MDL Component: Cards
+    MDL Component Template: Square
+    MDL Documentation: http://www.getmdl.io/components/index.html#cards-section
+
+*/
+
+/*
+
+    Ionic Component: Cards
+    Ionic Documentation: http://ionicframework.com/docs/components/#cards
+
+    MDL Component: Cards
+    MDL Component Template: Share
+    MDL Documentation: http://www.getmdl.io/components/index.html#cards-section
+
+*/
+.ion-mdl-card--share > .ion-mdl-card--title {
+  color: #fff;
+  height: 176px;
+  background: url('http://www.getmdl.io/assets/demos/welcome_card.jpg') center / cover;
+}
+.ion-mdl-card--share > .ion-mdl-card--share-menu {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  color: #fff;
+}
+.ion-mdl-card.ion-mdl-content-colored .ion-mdl-button .mdl-ripple {
+  background: rgb(255,255,255);
+}
